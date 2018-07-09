@@ -29,7 +29,7 @@ function returnDave() {
             text = "Sorry, I can't help with that";
             break;
     }
-    document.getElementById("hal").innerHTML += text + "<br/>";
+    document.getElementById("hal").innerHTML = text + "<br/>";
 }
 
 //function that tells the user what day it is.
